@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:firstapp/basic_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'immutable_widget.dart';
@@ -15,7 +15,7 @@ class StatiApp  extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
-      home: const ImmutableWidget(),
+      home: const BasicScreen(),
     );
   }
 }
